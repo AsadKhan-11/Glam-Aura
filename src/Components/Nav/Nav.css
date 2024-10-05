@@ -1,0 +1,50 @@
+.Nav {
+  width: 100vw;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: transparent;
+  font-family: DM Sans;
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.nav-logo span {
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: -10px;
+}
+
+.links-container {
+  display: flex;
+  gap: 40px;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+
+  font-size: 22px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.login-container ion-icon {
+  height: 30px;
+  width: 30px;
+}
