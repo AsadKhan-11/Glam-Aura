@@ -1,0 +1,27 @@
+.Home {
+  height: 100vh;
+
+  width: calc(100% - 5px);
+}
+
+.home-header {
+  font-size: 58px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 400;
+  transform: scaleY(1.2);
+}
+
+.home-header span {
+  color: orange;
+}
+
+.home-img-container {
+  height: 100%;
+  padding: 0 20px;
+}
+
+.home-img {
+  height: 100%;
+  width: 100%;
+}
