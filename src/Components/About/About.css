@@ -1,13 +1,28 @@
 .About {
   height: 100vh;
   padding: 0 20px;
+  position: relative;
+}
+
+.about-header {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 5px;
 }
 
 .about-container {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+  grid-template-columns: 2.5fr 0.5fr 0.5fr 0.5fr 1.5fr;
   grid-template-rows: repeat(4, 1fr);
   height: 500px;
+  border-top: 1px solid rgb(75, 75, 75);
+  border-left: 1px solid rgb(75, 75, 75);
+  position: relative;
+}
+.item {
+  border: 1px solid rgb(75, 75, 75);
+  border-top: none;
+  border-left: none;
 }
 
 .item1 {
@@ -36,6 +51,27 @@
 .item3 {
   grid-column: 2;
   grid-row: 2;
+}
+
+.item:nth-child(3),
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6),
+.item:nth-child(7),
+.item:nth-child(8),
+.item:nth-child(9),
+.item:nth-child(10),
+.item:nth-child(11) {
+  height: 150px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fruit {
+  height: 60%;
+  width: 60%;
 }
 .item4 {
   grid-column: 3;
@@ -72,8 +108,30 @@
 .item12 {
   grid-column: 5;
   grid-row: 2 / span 5;
+  padding: 0 20px;
 }
 
-.item {
-  outline: 1px solid rgb(75, 75, 75);
+.spray {
+  position: absolute;
+
+  z-index: 10;
+  height: 350px;
+  width: 350px;
+}
+
+.spray2 {
+  left: 40%;
+  top: 50%;
+}
+
+.spray1 {
+  right: 30%;
+  top: 50%;
+}
+
+.spray1 {
+  transform: rotate(50deg);
+}
+.spray2 {
+  transform: rotate(340deg);
 }
