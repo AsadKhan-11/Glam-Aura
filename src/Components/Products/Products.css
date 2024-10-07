@@ -1,0 +1,26 @@
+.Products {
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.Products-header {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.container-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.products-list {
+  list-style: none;
+}
+
+.product-category {
+  font-size: 28px;
+  margin-bottom: 10px;
+  border-top: 1px solid black;
+}

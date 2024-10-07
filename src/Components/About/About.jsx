@@ -51,7 +51,7 @@ function About() {
             embracing your unique beauty.
           </p>
           <a href="" className="item-link">
-            LEARN MORE
+            LEARN MORE <ion-icon name="arrow-forward-outline"></ion-icon>
           </a>
         </div>
       </div>
