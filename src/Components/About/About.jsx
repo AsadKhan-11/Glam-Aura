@@ -1,10 +1,10 @@
 import React from "react";
-import aboutimg from "./img/aboutimg.jpg";
+import aboutimg from "./img/aboutimg1.jpg";
 import orange from "./img/orange.png";
-import peach from "./img/peach.png";
+import flower from "./img/flower.png";
 import lemon from "./img/lemon.png";
 import spray1 from "./img/spray1.png";
-import spray3 from "./img/spray3.png";
+import spray2 from "./img/spray4.png";
 
 import "./About.css";
 function About() {
@@ -13,7 +13,7 @@ function About() {
       <h1 className="about-header">ABOUT US</h1>
 
       <img src={spray1} className="spray spray2" />
-      <img src={spray3} className="spray spray1" />
+      <img src={spray2} className="spray spray1" />
       <div className="about-container">
         <div className=" item item1">
           <img src={aboutimg} alt="" className="secondary-img " />
@@ -37,7 +37,7 @@ function About() {
           <img src={lemon} className="fruit" />
         </div>
         <div className="item9 item">
-          <img src={peach} className="fruit" />
+          <img src={flower} className="fruit" />
         </div>
         <div className="item10 item"></div>
         <div className="item11 item"></div>
@@ -50,6 +50,9 @@ function About() {
             help you shine from within, enhancing your natural glow while
             embracing your unique beauty.
           </p>
+          <a href="" className="item-link">
+            LEARN MORE
+          </a>
         </div>
       </div>
     </div>

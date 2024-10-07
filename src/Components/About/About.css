@@ -6,13 +6,13 @@
 
 .about-header {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 5px;
 }
 
 .about-container {
   display: grid;
-  grid-template-columns: 2.5fr 0.5fr 0.5fr 0.5fr 1.5fr;
+  grid-template-columns: 1.5fr 0.5fr 0.5fr 0.5fr 1.5fr;
   grid-template-rows: repeat(4, 1fr);
   height: 500px;
   border-top: 1px solid rgb(75, 75, 75);
@@ -72,6 +72,7 @@
 .fruit {
   height: 60%;
   width: 60%;
+  filter: drop-shadow(0px 10px 10px rgb(156, 156, 156));
 }
 .item4 {
   grid-column: 3;
@@ -108,7 +109,18 @@
 .item12 {
   grid-column: 5;
   grid-row: 2 / span 5;
-  padding: 0 20px;
+  padding: 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-link {
+  width: 200px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 2px 0;
 }
 
 .spray {
@@ -120,18 +132,13 @@
 }
 
 .spray2 {
-  left: 40%;
+  left: 33%;
   top: 50%;
-}
-
-.spray1 {
-  right: 30%;
-  top: 50%;
-}
-
-.spray1 {
-  transform: rotate(50deg);
-}
-.spray2 {
   transform: rotate(340deg);
+}
+
+.spray1 {
+  right: 37%;
+  top: 55%;
+  transform: rotate(0deg);
 }
