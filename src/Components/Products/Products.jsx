@@ -1,5 +1,6 @@
 import React from "react";
 import "./Products.css";
+import data from "./Data";
 function Products() {
   return (
     <div className="Products">
@@ -23,11 +24,19 @@ function Products() {
           </li>
         </ul>
         <div className="products-container">
-          <li className="prodcut-category">BODY</li>
-          <li className="prodcut-category">FACE</li>
-          <li className="prodcut-category">HAIR</li>
-          <li className="prodcut-category">ACCESSORIES</li>
-          <li className="prodcut-category">SETS</li>
+          {data.map((data, index) => {
+            return (
+              <div className="products-cards" key={index}>
+                <div className="data-img-container">
+                  <img src={data.img} alt="" className="data-img" />
+                </div>
+                <div className="data-info">
+                  <p className="data-name">{data.name}</p>
+                  <p className="data-price">{data.price}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
