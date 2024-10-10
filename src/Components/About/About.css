@@ -1,20 +1,14 @@
 .About {
-  height: 100vh;
+  height: 100%;
   padding: 0 20px;
   position: relative;
-}
-
-.about-header {
-  font-size: 50px;
-  font-weight: 400;
-  letter-spacing: 5px;
 }
 
 .about-container {
   display: grid;
   grid-template-columns: 1.5fr 0.5fr 0.5fr 0.5fr 1.5fr;
   grid-template-rows: repeat(4, 1fr);
-  height: 500px;
+  height: 600px;
   border-top: 1px solid rgb(75, 75, 75);
   border-left: 1px solid rgb(75, 75, 75);
   position: relative;

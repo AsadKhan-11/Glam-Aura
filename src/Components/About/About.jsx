@@ -10,7 +10,7 @@ import "./About.css";
 function About() {
   return (
     <div className="About">
-      <h1 className="about-header">ABOUT US</h1>
+      <h1 className="about-header header">ABOUT US</h1>
 
       <img src={spray1} className="spray spray2" />
       <img src={spray2} className="spray spray1" />

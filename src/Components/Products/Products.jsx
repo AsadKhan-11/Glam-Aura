@@ -16,7 +16,7 @@ function Products() {
 
   return (
     <div className="Products">
-      <h2 className="Products-header">OUR PRODUCTS</h2>
+      <h2 className="Products-header header">OUR PRODUCTS</h2>
       <div className="container-wrapper">
         <ul className="products-list">
           <li className="product-category active" onClick={highlightLink}>

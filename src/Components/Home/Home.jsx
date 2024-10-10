@@ -5,7 +5,7 @@ import skincare from "./img/skincare.jpg";
 function Home() {
   return (
     <div className="Home">
-      <h1 className="home-header">
+      <h1 className="home-header ">
         UNLOCK THE SECRET TO <span>GLOWING SKIN</span>
       </h1>
 
